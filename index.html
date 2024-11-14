@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Download PPTX File</title>
+</head>
+<style>
+    body{
+        width:100%;
+        height: 100vh;
+        background-color: black;
+        overflow-x: hidden;
+    }
+    .container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    a{
+        color: white;
+        font-size: 78px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: 900;
+        text-decoration: none;
+
+    }
+    a:hover{
+        color: yellow;
+        transition: 1s ease all ;
+    }
+    @media (max-width: 768px) {
+        a{
+            font-size: 48px;
+            text-align: center;
+        }
+    }
+ 
+  
+</style>
+<body>
+
+  <!-- Link to download the pptx file -->
+   <div class="container">
+    <a href="./ppt/corona.pptx" download>Download Presentation</a>
+
+   </div>
+  
+  
+</body>
+</html>
